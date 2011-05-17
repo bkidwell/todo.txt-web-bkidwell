@@ -42,8 +42,10 @@ echo <<<HTML
                        class="wide" type='text' name='input_user' /><br />
                 <label>password:</label><br />
                 <input class="wide" type='password' name='input_password' /><br />
-                <input type="checkbox" name="rememberme" id="rememberme" value="1">
-                <label>remember me?</label><br />
+                <label for="rememberme">
+	                <input type="checkbox" name="rememberme" id="rememberme" value="1">
+			remember me?
+		</label><br />
                 <input class="wide" type='Submit' value='Login&raquo;' name='loginbutton'>
         </form>
     </div>
